@@ -95,6 +95,7 @@
      text-decoration: none;
      font-size: 16px;
      border-radius: 5px;
+     display: inline-block;
 }
 .footer-logo{
     width: 484px;
@@ -121,3 +122,17 @@
     padding-top: 20px;
 }
 /* footer style end */
+
+/* Media Queries */
+
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    .header-container .blogs-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        padding-top: 30px;
+        align-items: center;
+    }
+}
